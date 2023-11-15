@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* ----------------Index.php----------------- */
+
+.formIndex{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.topo{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 8vh;
+}
+
+.lateral{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 4vw;
+    height: 99vh;
+    margin-top: -7vh;
+
+}
+
+.imgs{
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    margin-top: 43px;
+    width: 35px;
+}
+
+.titulo{
+    margin-top: 20px;
+}
+
+.logotipo{
+    margin-left: 49vw;
+    width: 3vw;
+    margin-top: 1vh;
+}
+
+h1{
+    color: #22223B; 
+}
+
+.corpo{
+    margin-top: -70vh;
+    margin-left: 43vw;
+}
+
+button{
+    border-radius: 100px;
+    background: #9A8C98;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    border-color: white;
+}
+

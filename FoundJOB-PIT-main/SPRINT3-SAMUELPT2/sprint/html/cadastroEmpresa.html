@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO 8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloEmpresa.css">
+    <link rel="shortcut icon" href="../Itens/Icons/logoSitePrincipal.png" type="image/x-icon">
+    <title>FoundJOB</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.7/inputmask.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topo" >
+            <img src="../Itens/Icons/acordo1.png" alt="logo" class="logotipo">
+        </div>
+        <div class="lateral">
+            <a href="./landingPage.html">
+                <img src="../Itens/Icons/botao-quadrado 1.png" alt="menu Inicial" class="imgs">
+            </a>
+
+            <a href="../php/visualizar_estagios.php">
+                <img src="../Itens/Icons/pasta 1.png" alt="Pagina Estagios" class="imgs">
+            </a>
+
+            <a href="../php/geral_estagios.php">
+                <img src="../Itens/Icons/marca-paginas 1.png" alt="estagios Favoritos" class="imgs">
+            </a>
+
+            <a href="./curriculos.html">
+                <img src="../Itens/Icons/curriculo-e-cv 1.png" alt="curriculo-e-cv" class="imgs">
+            </a>
+
+            <a href="../php/perfil_empresa.php">
+                <img src="../Itens/Icons/do-utilizador 1.png" alt="Usuario" class="imgs">
+            </a>
+        </div>
+    </header>
+
+    <div class="boderBodyEscopo">
+        <form action="../php/salvar_empresa.php" method="post" class="formCadastroEmpresa">
+            <div class="h1 lulu">
+                <h1>CADASTRE-SE </h1>
+            </div>
+            <input type class="text" name="nome" id="nomeCadastro" placeholder="Nome fantasia" required>
+            <div class="co">
+            <input type="text" name="cnpj" id="cnpjCadastro" placeholder="CNPJ" oninput="formatarCNPJ(this)" required>
+            <span id="cnpjError" class="error"></span>
+            <input type="text" name="tel" id="telCadastro" placeholder="Telefone" required>
+            </div>
+            <input type class="text" name="end" id="endcadastro" placeholder="Endereco" required>
+            <div class="co">
+                <input type="text" name="cep" id="cepCadastro" placeholder="CEP" required>
+                <input type="text" name="cidade" id="cidadeCadastro" placeholder="Cidade" required>
+            </div>
+            <div class="co">
+                <input type="text" name="estado" id="estadoCadastro" placeholder="Estado" required>
+                <input type="password" name="senha" id="senhaCadasdro" placeholder="Senha" required>
+            </div>
+            <button name class="cadastro" type="submit">CADASTRAR</button>
+        </form>
+    </div>
+
+    <script>
+       function formatarCNPJ(campo) {
+      var valor = campo.value.replace(/\D/g, '');
+      var cnpjFormatado = '';
+
+      if (valor.length === 14) {
+        cnpjFormatado = valor.substring(0, 2) + '.' + valor.substring(2, 5) + '.' + valor.substring(5, 8) + '/' + valor.substring(8, 12) + '-' + valor.substring(12);
+      } else {
+        cnpjFormatado = valor;
+      }
+
+      campo.value = cnpjFormatado;
+    }
+
+    // Validar CNPJ
+    var form = document.querySelector('form');
+    form.addEventListener('submit', function (event) {
+      var cnpjInput = document.getElementById('cnpjCadastro');
+      var cnpjError = document.getElementById('cnpjError');
+      var cnpj = cnpjInput.value.replace(/\D/g, '');
+
+      if (!validarCNPJ(cnpj)) {
+        event.preventDefault();
+        cnpjError.textContent = 'CNPJ inválido.';
+        cnpjInput.classList.add('error');
+      } else {
+        cnpjError.textContent = '';
+        cnpjInput.classList.remove('error');
+      }
+    });
+
+    function validarCNPJ(cnpj) {
+      var cnpjRegex = /^\d{2}\.\d{3}\.\d{3}\/\d{4}-\d{2}$/;
+      return cnpjRegex.test(cnpj);
+    }
+        const telInput = document.getElementById("telCadastro");
+        Inputmask("(99) 9999-9999").mask(telInput);
+    </script>
+
+    <footer>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

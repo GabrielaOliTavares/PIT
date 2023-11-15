@@ -1,0 +1,70 @@
+.estagio{
+    border-radius: 50px;
+    background: #F2E9E4;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 20px;
+    height: 23vh;
+    width: 20vw;
+}
+
+body{
+    margin: 0;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* ----------------Index.php----------------- */
+
+.formIndex{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.topo{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 8vh;
+}
+
+.lateral{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 4vw;
+    height: 99vh;
+    margin-top: -7vh;
+
+}
+
+.logotipo{
+    margin-left: 49vw;
+    width: 3vw;
+    margin-top: 1vh;
+}
+
+h1{
+    color: #22223B;
+    
+}
+
+.imgs{
+    margin-left: 0.5vw;
+    margin-bottom: 7vh;
+}
+
+.total{
+    margin-left: 10vw;
+    margin-top: -80vh;
+    text-align: center;
+}
+
+.pdfs{
+    border-radius: 25px;
+background: #F2E9E4;
+
+margin-bottom: 5vh;
+width: 30vw;
+font-size: 30px;
+margin-left: 28vw;
+}

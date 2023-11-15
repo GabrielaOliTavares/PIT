@@ -1,0 +1,76 @@
+.vai{
+    margin-left: 5vw;
+    margin-top: -90vh;
+    font-size: 2vw;
+    color: #9A8C98;
+    font-weight: bolder;
+}
+
+
+
+body{
+    margin: 0;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* ----------------Index.php----------------- */
+
+.formIndex{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.topo{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 8vh;
+}
+
+.lateral{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 4vw;
+    height: 99vh;
+    margin-top: -7vh;
+
+}
+
+.logotipo{
+    margin-left: 49vw;
+    width: 3vw;
+    margin-top: 1vh;
+}
+
+button{
+    height: 4vh;
+    width: 14vw;
+    background-color: #9A8C98;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left: 12vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #9A8C98;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+button:hover{
+    height: 5vh;
+    width: 15vw;
+    background-color: #9A8C98;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left: 12vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #9A8C98;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    margin-top: 3vh;
+}

@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* ----------------Index.php----------------- */
+
+.formIndex{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.topo{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 8vh;
+}
+
+.lateral{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 4vw;
+    height: 99vh;
+    margin-top: -7vh;
+
+}
+
+.logotipo{
+    margin-left: 49vw;
+    width: 3vw;
+    margin-top: 1vh;
+}
+
+h1{
+    color: #22223B;
+    
+}
+
+
+
+#cnpjLogin{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#cnpjLogin:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+#senhaLogin{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#senhaLogin:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.boderBodyEscopo{
+    margin-top: -90vh;
+}
+
+.subir{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+}
+
+button{
+    height: 6vh;
+    width: 13vw;
+    background-color: #9A8C98;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left: 13vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #9A8C98;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+button:hover{
+    height: 6.2vh;
+    width: 13.2vw;
+    background-color: #9A8C98;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left: 13vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #9A8C98;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    margin-top: 3vh;
+}
+
+.espaco{
+    margin-bottom: 5vh;
+}
+
+.imgs{
+    width: 40px;
+    margin-left: 0.5vw;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
+}
+
+a{
+   color:#655a64 
+}

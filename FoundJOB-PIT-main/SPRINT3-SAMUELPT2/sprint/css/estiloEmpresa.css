@@ -1,0 +1,527 @@
+body{
+    margin: 0;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* ----------------Index.php----------------- */
+
+.formIndex{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.topo{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 8vh;
+}
+
+.lateral{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 4vw;
+    height: 100vh;
+    margin-top: -8vh;
+
+}
+
+.logotipo{
+    margin-left: 49vw;
+    width: 3vw;
+    margin-top: 1vh;
+}
+
+/* ----------------cadastroEmpresa.php----------------- */
+
+.formCadastroEmpresa{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 15vw;
+    margin-top: -50vh;
+
+}
+
+form input{
+    margin: 2vh;
+}
+
+.boderBodyEscopo{
+    margin-top: -80vh;
+    margin-left: 20vw;
+}
+
+.booooderBodyEscopo{
+    margin-top: 10vh;
+    margin-left: 20vw;
+}
+
+body{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.perfil{
+    margin-top: -90vh;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.nomeEmpresa{
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-top: 10vh;
+    margin-left: 3vw;
+}
+
+
+#nomeCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: -2vw;
+}
+
+
+
+#nomeCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+h1{
+    color: #9A8C98;
+   
+
+    
+}
+
+.lala{
+    
+    margin-top: -5px;
+    margin-left: 41vh;
+}
+
+.lulu{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 1px;
+    margin-left: 20vh;
+}
+
+
+
+.contato{
+    display: flex;
+    width: 95vh;
+   margin-left: -17%;
+   
+}
+
+
+.cc{
+    margin-left:8vw; ;
+}
+
+
+.co{
+    display: flex;
+    justify-content: space-between;
+    width: 42vw;
+    margin-left: -2.5vw;
+    
+}
+
+
+
+.conf{
+    display: flex;
+    justify-content: space-between;
+    width: 42vw;
+    margin-left: 8vw;
+    
+}
+
+.text{
+   margin-left: -4vw;
+}
+
+.cadastro{
+    margin-left: 9vw;
+   
+
+}
+
+
+
+#cnpjCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+   
+    
+}
+
+#cnpjCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+#telCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+#telCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+#endcadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: -2vw;
+}
+
+#endcadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+#cepCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#cepCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+#cidadeCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#cidadeCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+#cpfCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#cpfCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+#emailCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#emailCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+
+#dataNascimento{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#emailCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+#estadoCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#estadoCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+#senhaCadasdro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+#senhaCadasdro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(154, 140, 152, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: white;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.submit{
+    height: 7vh;
+    width: 14vw;
+    background-color: #9A8C98;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left: 22vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #9A8C98;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+.submit:hover{
+    height: 7.4vh;
+    width: 14vw;
+    background-color: #9A8C98;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left: 22vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #9A8C98;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    margin-top: 3vh;
+}
+
+
+
+.cadastro{
+    height: 7vh;
+    width: 14vw;
+    background-color: #9A8C98;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left: 11vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #9A8C98;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+.cadastro:hover{
+    height: 7.4vh;
+    width: 14vw;
+    background-color: #9A8C98;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left: 11vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #9A8C98;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    margin-top: 3vh;
+}
+
+.btnss{
+    display: flex;
+    flex-direction: column;
+}
+
+.exit{
+    color: black;
+    font-size: 20px;
+    margin-top: 8vw;
+    margin-left: -25vw;
+    
+
+}
+
+.exit1{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+.atualizar{
+
+
+    
+    margin-left: -15%;
+}
+
+
+
+.imgs{
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    margin-top: 65px;
+    width: 35px;
+}

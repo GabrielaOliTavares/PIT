@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgAcordo{
+   margin-top: -3px;
+   margin-left: 18px;
+   height: 40px;
+   width: 20vw;
+   
+}
+/* ----------------Index.php----------------- */
+
+.formIndex{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.topo{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 8vh;
+}
+
+.lateral{
+    background-color: #fff ;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 4vw;
+    height: 99vh;
+    margin-top: -7vh;
+
+}
+
+.logotipo{
+    margin-left: 49vw;
+    width: 3vw;
+    margin-top: 1vh;
+}
+
+h1{
+    color: #22223B;
+    
+}
+
+
+.imgs{
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    margin-top: 43px;
+    width: 35px;
+}
+
+.img{
+    margin-top: -100vw;
+    margin-left: 69vw;
+    width: 29vw;
+}
+
+.textUno{
+    background-color: #9A8C98;
+    margin-top: -85vh;
+    text-align: center;
+    width: 30vw;
+    height: 20vh;
+    border-radius: 400px;
+    margin-left: 10vw;
+}
+
+.textUno h4{
+    font-size: 40px;
+}
+.textDuo{
+    border-radius: 149.5px;
+    background: #4A4E69;
+    width: 30vw;
+    height: 20vh;
+    text-align: center;
+    margin-left: 35vw;
+    margin-top: -4vw;
+   text-align: center;
+   align-items: center;
+
+}
+
+h1{
+    color: white;
+}
+
+h4{
+    margin-top: 3vh;
+    color: white;
+    text-align: center;
+}
+
+button{
+    border-radius: 300px;
+background: #C9ADA7;
+box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+width: 20vw;
+height: 10vh;
+margin-left: 30vw;
+margin-top: 10vh;
+font-weight: bolder;
+font-size: 30px;
+}

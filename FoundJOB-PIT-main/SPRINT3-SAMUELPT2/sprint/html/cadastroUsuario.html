@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO 8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloEmpresa.css">
+    <link rel="shortcut icon" href="../Itens/Icons/logoSitePrincipal.png" type="image/x-icon">
+    <title>FoundJOB</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.7/inputmask.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topo" >
+            <img src="../Itens/Icons/acordo1.png" alt="logo" class="logotipo">
+        </div>
+        <div class="lateral">
+            <a href="./landingPage.html">
+                <img src="../Itens/Icons/botao-quadrado 1.png" alt="menu Inicial" class="imgs">
+            </a>
+
+            <a href="../php/geral_estagios.php">
+                <img src="../Itens/Icons/pasta 1.png" alt="Pagina Estagios" class="imgs">
+            </a>
+
+            <a href="#">
+                <img src="../Itens/Icons/marca-paginas 1.png" alt="estagios Favoritos" class="imgs">
+            </a>
+
+            <a href="./curriculos.html">
+                <img src="../Itens/Icons/curriculo-e-cv 1.png" alt="curriculo-e-cv" class="imgs">
+            </a>
+
+            <a href="../php/perfil_empresa.php">
+                <img src="../Itens/Icons/do-utilizador 1.png" alt="Usuario" class="imgs">
+            </a>
+
+            </div>
+    </header>
+
+    <div class="boderBodyEscopo">
+        <form action="../php/salvar_usuario.php" method="post" class="formCadastroUsuario">
+            <div class="h1">
+                <h1>CADASTRE-SE</h1>
+            </div>
+            <div class="cc">
+            <input type="text" name="nome" id="nomeCadastro" placeholder="Nome" required>
+            </div>
+            <div class="conf">
+            <input type="text" name="cpf" id="cpfCadastro" placeholder="cpf" required>
+            <input type="email" name="email" id="emailCadastro" placeholder="e-mail" required>
+            
+            </div>
+            <div class="conf">
+                <input type="date" name="dataNascimento" id="dataNascimento" placeholder="Data de Nascimento" required>
+                <input type="password" name="senha" id="senhaCadasdro" placeholder="Senha" required>
+            </div>
+            <button type="submit" class="submit">CADASTRAR</button>
+        </form>
+    </div>
+
+    <script>
+        const cpfInput = document.getElementById("cpfCadastro");
+
+        cpfInput.addEventListener("input", function () {
+            // Remove qualquer caractere que não seja número
+            const cleanedValue = cpfInput.value.replace(/\D/g, "");
+
+            // Limita o número de dígitos ao formato de CPF
+            if (cleanedValue.length > 11) {
+                cpfInput.value = cleanedValue.slice(0, 11);
+            }
+
+            // Aplica a máscara do CPF (XXX.XXX.XXX-XX)
+            cpfInput.value = cleanedValue.replace(/(\d{3})(\d{3})(\d{3})(\d{0,2})/, function(_, p1, p2, p3, p4) {
+                return p4 ? `${p1}.${p2}.${p3}-${p4}` : `${p1}.${p2}.${p3}`;
+            });
+        });
+
+
+        // Adicione uma máscara ao campo de e-mail
+        const emailInput = document.getElementById("emailCadastro");
+        Inputmask({ alias: "email" }).mask(emailInput);
+    </script>
+
+    <footer>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

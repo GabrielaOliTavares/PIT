@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../css/estagios.css">
+</head>
+<body>
+
+<header>
+        <div class="topo" >
+            <img src="../Itens/Icons/acordo1.png" alt="logo" class="logotipo">
+        </div>
+        <div class="lateral">
+        </div>
+</header>
+
+
+    <tr>
+        <td>
+            <div class="vai">
+                nome: <?= $estagio['nome']; ?><br>
+                localização: <?= $estagio['localizacao']; ?><br>
+                contato: <?= $estagio['contato']; ?><br>
+                bolsa: <?= $estagio['bolsa']; ?><br>
+                cargaHoraria: <?= $estagio['cargaHoraria']; ?><br>
+                conhecimento: <?= $estagio['conhecimento']; ?><br>
+                informações adicionais: <?= $estagio['informaçõesExtras']; ?><br>
+
+                <form action="../php/deletar_estagio.php" method="POST">
+                    <button name="del" value="<?= $estagio['id']; ?>">Deletar</button>
+                </form>
+                
+                <form action="../php/atualizar_estagio.php" method="POST">
+                    <button type="submit" name="atu" value="<?= $estagio['id']; ?>">Atualizar</button>
+                </form>
+                <form action="../php/perfil_empresa.php" class="vaim">
+    <br>
+    <br>
+    <button>home</button>
+</form>
+            </div>
+        </td>
+    </tr>
+<?php
+}
+?>
+</body>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloEmpresa.css">
+    <link rel="shortcut icon" href="../Itens/Icons/logoSitePrincipal.png" type="image/x-icon">
+    <title>FoundJOB</title>
+</head>
+<body>
+    <header>
+        <div class="topo" >
+            <img src="../Itens/Icons/acordo1.png" alt="logo" class="logotipo">
+        </div>
+        <div class="lateral">
+            <a href="./landingPage.html">
+                <img src="../Itens/Icons/botao-quadrado 1.png" alt="menu Inicial" class="imgs">
+            </a>
+
+            <a href="../php/geral_estagios.php">
+                <img src="../Itens/Icons/pasta 1.png" alt="Pagina Estagios" class="imgs">
+            </a>
+
+            <a href="#">
+                <img src="../Itens/Icons/marca-paginas 1.png" alt="estagios Favoritos" class="imgs">
+            </a>
+
+            <a href="./curriculos.html">
+                <img src="../Itens/Icons/curriculo-e-cv 1.png" alt="curriculo-e-cv" class="imgs">
+            </a>
+
+            <a href="../php/perfil_empresa.php">
+                <img src="../Itens/Icons/do-utilizador 1.png" alt="Usuario" class="imgs">
+            </a>
+
+            </div>
+    </header>
+
+    <div class="boderBodyEscopo">
+        <form action="../php/salvar_estagio.php" method="post" class="formCadastroEmpresa">
+            <div class="h1 lala">
+                <h1>CADASTRO DE ESTÁGIO</h1>
+            </div>
+            <div class="conf">
+            <input type="text" name="nome" id="cnpjCadastro" placeholder="Nome:" required>
+            <input type="text" name="localizacao" id="telCadastro" placeholder="Localizacao:" required>
+            </div>
+            <input type="text" name="contato" id="endcadastro" placeholder="Contato:" required>
+            <div class="conf">
+                <input type="number" name="bolsa" id="cepCadastro" placeholder="Valor:" required>
+                <input type="number" name="cargaHoraria" id="cidadeCadastro" placeholder="Carga:" required>
+            </div>
+            <div class="conf">
+                <input type="text" name="conhecimento" id="estadoCadastro" placeholder="Conhecimento:" required>
+                <input type="text" name="informaçõesExtras" id="senhaCadasdro" placeholder="informações Extras:" required>
+            </div>
+            <button name="cadastroEstagio" type="submit">CADASTRAR</button>
+            <a href="../php/perfil_empresa.php"><button>Voltar</button></a>
+        </form>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

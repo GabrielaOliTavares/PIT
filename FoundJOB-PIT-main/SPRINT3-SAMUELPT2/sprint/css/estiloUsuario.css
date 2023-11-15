@@ -1,0 +1,239 @@
+.boderBodyEscopo{
+    z-index: -1;
+}
+
+.popup li {
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    text-decoration: underline #40B1E5;
+}
+
+.imgMenuPrincipal{
+    width: 5vw;
+    height: 10vh;
+}
+
+.popup {
+    visibility: hidden;
+    background-color: white;
+    margin: 0;
+    width: 16vw;
+    border-radius: 10px 10px 10px 10px;
+    height: 33vh;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.57);
+    z-index: +2;
+}
+
+.itemLiPopUp{
+    margin-top: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ----------------cadastroEmpresa.php----------------- */
+
+.formCadastroUsuario{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 16vw;
+    margin-top: -30vh;
+
+}
+
+form input{
+    margin: 2vh;
+}
+
+.boderBodyEscopo{
+    margin-top: 10vh;
+    margin-left: 28vw;
+}
+
+body{
+ background-image: url(../Itens/imgs/telaCadastroEmpresa/backgroundImg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nomeCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#nomeCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+h1{
+    text-align: center;
+    color: #40B1E5;
+}
+
+.h1{
+    margin-left: 11vw;
+}
+
+.conf{
+    display: flex;
+    justify-content: space-between;
+    width: 42vw;
+}
+
+
+#cpfCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+   
+    
+}
+
+#cpfCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+#emailCadastro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+#emailCadastro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+#dataNascimento{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#dataNascimento:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+#senhaCadasdro{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+#senhaCadasdro:hover{
+    background-color: white;
+    box-shadow: 10px 10px 3px 4px rgba(0, 26, 255, 0.62);
+    border-radius: 100px;
+    width: 40vw;
+    height: 5vh;
+    border-style: inset;
+    border-color: blue;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+button{
+    height: 8vh;
+    width: 18vw;
+    background-color: #6170FF;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 100px;
+    margin-left: 12vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #6170FF;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+button:hover{
+    height: 8vh;
+    width: 18vw;
+    background-color: #6170FF;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 100px;
+    margin-left: 12vw;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-color: #6170FF;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    margin-top: 3vh;
+}
